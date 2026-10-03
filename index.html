@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For you 💌</title>
+</head>
+<body style="background-image: url('bgrakha.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: fixed;>
+min-height: 100vh;
+color: azure;
+">
+    <h1>Haloww Rakhaaa!:3</h1>
+    <p>
+        Today's your birthday yay ^____^ 🎉</p>
+        <figure>
+            <img src="rakha.png" style="width: 250px;border: 3px solid rgb(236, 228, 228);"/>
+            <figcaption>I drew this special for rakhaa UwU </figcaption>
+        </figure>
+
+        <p id="typing"></p>
+        <span class="cursor">|</span>
+
+        <br><br>
+
+        <audio controls loop>
+  <source src="futiledevices.mp3.mpeg" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+    </div>
+
+    <script>
+const text = "today is your day rak XD, so I hope u get to spend it surrounded by good things, good people, and lots of happiness. I hope today gives u plenty of reasons to smile and makes u feel extra special. really glad I got the chance to know u. I honestly enjoy every little conversation we have, even the random ones, n I’m grateful for all the moments we’ve shared so far. getting to know u has been one of the nice things that happened to me, and I hope we get to make more good memories together. I hope this new age brings u closer to everything u’re working for. more happiness, more success, more exciting experiences, and hopefully fewer things that stress u out hehe. u deserve good things, Rakha. n please, don’t forget to take care of urself too. take ur time, enjoy ur life, and keep being urself. I hope u’ll always have people around u who genuinely care about u and support u. again, happy birthday, Rakha! I hope u have the best day today!🎂🌟.";
+
+let i = 0;
+const speed = 10;
+
+function typing() {
+    if (i < text.length) {
+document.getElementById("typing").innerHTML += text.charAt(i);
+i++;
+setTimeout(typing, 100);
+  }
+}
+
+typing();
+</script>
+</body>
+</html>
